@@ -2,13 +2,35 @@
 <html lang="en-US">
     <head>
         <title>Relive Legacy! &gt;w&lt;</title>
+        <style>
+            .background {
+                position: absolute;
+                left: 0;
+                top: 0;
+                width: 100%;
+                height: 100%;
+                z-index: -100;
+            }
+            .icon-dance {
+                background: url('./files/images/pikachu.gif') no-repeat;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-left: 20px;
+                padding-right: 20px;
+            }
+            .header {
+                background: #538bc0;
+                color: white;
+            }
+        </style>
     </head>
     <body>
-        <h1>
+        <img class="background" src="./files/images/background.png">
+        <h1 class="header">
             <i>
-                ReLIVE Legacy - <div>&gt;w&lt;</div>
+                ReLIVE Legacy - <span>&gt;w&lt;</span>
+                <span class="icon-dance">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
             </i>
         </h1>
-        <p>Helllooo Windows 98!</p>
     </body>
 </html>
